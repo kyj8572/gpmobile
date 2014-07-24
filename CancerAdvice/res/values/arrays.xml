@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="stomach">
+		<item>정상</item>
+		<item>위염, 위염,mild to moderate</item>
+		<item>위염</item>
+		<item>위염, 위축성위염, mild</item>
+		<item>위염, 위축성위염, severe</item>
+	</string-array>
+
+</resources>

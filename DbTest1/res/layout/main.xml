@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/hello" />
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/linearLayout1">
+		<EditText android:id="@+id/editText1" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_weight="0.26">
+			<requestFocus></requestFocus>
+		</EditText>
+		<EditText android:id="@+id/editText2" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_weight="0.26"></EditText>
+		<Button android:id="@+id/button1" android:text="INSERT"
+			android:layout_height="wrap_content" android:layout_weight="0.26"
+			android:layout_width="wrap_content"></Button>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/linearLayout2">
+		<EditText android:id="@+id/editText3" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_weight="0.26"></EditText>
+		<EditText android:id="@+id/editText4" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_weight="0.26"></EditText>
+		<Button android:id="@+id/button2" android:text="DELETE"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+		<Button android:id="@+id/button3" android:text="UPDATE"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+	</LinearLayout>
+	<ListView android:id="@+id/listView1" android:layout_width="match_parent"
+		android:layout_height="wrap_content"></ListView>
+</LinearLayout>

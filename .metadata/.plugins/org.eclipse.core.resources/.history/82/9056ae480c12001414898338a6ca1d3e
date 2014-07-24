@@ -1,0 +1,19 @@
+package com.example.binarysearch;
+
+public class BinarySearch {
+	
+	public static int search(int[] arr, int x) 
+	{
+		int i;
+		int p = 0;
+		int q = arr.length -1;
+		while(p<=q) {
+			i = (p+q)/2;
+			if(arr[i] == x) return i;
+			if(arr[i] < x)  p = i+1;
+			else q = i-1;
+		}
+		return -p-1;
+	}
+
+}

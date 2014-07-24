@@ -1,0 +1,26 @@
+package com.example.binarysearch;
+
+public class BinarySearch {
+	public static int search(int[] arr, int x) 
+	{
+		int i;
+		int p = 0;
+		int q = arr.length -1;
+		while(p<=q) {
+			i = (p+q)/2;
+			if(arr[i] == x) return i;
+			if(arr[i] < x)  p = i+1;
+			else q = i-1;
+		}
+		return -p-1;
+	}
+	
+	public static void main(String [] args) 
+	{
+		int[] iarr = new int[] {14, 15, 16, 22, 99, 202, 1111, 1823};
+		
+		System.out.println("search 33...result : " + search(iarr, 33));
+		System.out.println("search 17...result : " + search(iarr, 17));
+		System.out.println("search 202...result : " + search(iarr, 202));
+	}
+}

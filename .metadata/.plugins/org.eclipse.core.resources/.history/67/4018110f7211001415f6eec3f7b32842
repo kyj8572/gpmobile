@@ -1,0 +1,32 @@
+package com.example.binarysearch;
+
+import java.util.*;
+
+public class BinarySearch {
+	
+	 	int count;              // 검색횟수
+	    int inputNum;           // 입력된 숫자
+	    int start;              // 검색 범위 시작 숫자
+	    int center;             // 비교할 검색 범위 중간 숫자
+	    int end;                // 검색 범위 끝 숫자
+	    int[] arr; 
+	
+	public static void main(String [] args) 
+	{
+		new BinarySearch().execute();
+	}
+	
+	public void execute() {
+
+        setArray();             // 배열을 생성하고 100까지 입력한다.\
+        getInputNum();          // 숫자를 입력받는다.
+        startSearch();          // 검색을 실행하며 과정을 출력한다.
+
+    }
+	
+	public void setArray() {
+		arr = 
+	}
+
+
+}

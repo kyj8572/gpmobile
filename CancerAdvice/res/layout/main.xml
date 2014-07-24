@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/opt_stomach"
+		 android:orientation="vertical"
+		 android:layout_width="fill_parent"
+   		 android:layout_height="fill_parent">
+   		
+   		<ListView 
+   			 android:id="@+id/stomach_list"
+			 android:layout_width="fill_parent"
+			 android:layout_height="fill_parent"/>
+			 
+	
+	</LinearLayout>	
+
+	<LinearLayout android:id="@+id/opt_colon"
+		
+    	 android:orientation="vertical"
+		 android:layout_width="fill_parent"
+   		 android:layout_height="fill_parent">
+   		<ListView 
+   			 android:id="@+id/colon_list"
+			 android:layout_width="fill_parent"
+			 android:layout_height="fill_parent"/>
+		
+	</LinearLayout>	
+	
+	<LinearLayout android:id="@+id/opt_liver"
+		
+    	android:orientation="vertical"
+		 android:layout_width="fill_parent"
+   		 android:layout_height="fill_parent">
+   		<ListView 
+   			 android:id="@+id/liver_list"
+			 android:layout_width="fill_parent"
+			 android:layout_height="fill_parent"/>
+		
+	</LinearLayout>	
+	
+	<LinearLayout android:id="@+id/opt_breast"
+		
+    	android:orientation="vertical"
+		 android:layout_width="fill_parent"
+   		 android:layout_height="fill_parent">
+   		
+		<ListView 
+   			 android:id="@+id/breast_list"
+			 android:layout_width="fill_parent"
+			 android:layout_height="fill_parent"/>
+	</LinearLayout>	
+	
+	<LinearLayout android:id="@+id/opt_cervix"
+		
+    	android:orientation="vertical"
+		 android:layout_width="fill_parent"
+   		 android:layout_height="fill_parent">
+   		<ListView 
+   			 android:id="@+id/cervix_list"
+			 android:layout_width="fill_parent"
+			 android:layout_height="fill_parent"/>
+		
+	</LinearLayout>	
+
+</FrameLayout>
